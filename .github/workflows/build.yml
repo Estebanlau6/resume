@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_call: # to make the workflow triggerable from other workflows (release.yml)
+  workflow_call:
 
 permissions:
   contents: write
@@ -23,16 +23,17 @@ jobs:
 
       - name: RenderCV
         run: |
-          cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
+          cv_file=$(find . -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
           if [ -z "$cv_file" ]; then
             echo "No RenderCV file found!"
             exit 1
           fi
-          cd ..
-          uv run rendercv render $cv_file
+          uv run rendercv render "$cv_file"
 
       - name: Upload output as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: RenderCV Output
+          # RenderCV usually creates a folder named "rendercv_output" 
+          # in the current working directory by default
           path: rendercv_output
