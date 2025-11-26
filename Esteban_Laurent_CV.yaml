@@ -2,21 +2,21 @@
 cv:
   name: Esteban Laurent
   location: Rouen
-  email: john.doe@example.com
-  phone: +1-609-999-9995
+  email: laurentesteban321@gmail.com
+  phone: +33 6 14 63 24 67
   website:
   social_networks:
     - network: LinkedIn
-      username: john.doe
+      username: Esteban Laurent
     - network: GitHub
-      username: john.doe
+      username: Estebanlau6
   sections:
     welcome_to_RenderCV!:
       - '[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.'
       - Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
     education:
-      - institution: Stanford University
-        area: Computer Science
+      - institution: Lycée Marcel Sembat 
+        area: Bac général, spécialité Mathématiques et SES 
         degree: PhD
         grade:
         date:
