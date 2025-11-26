@@ -10,9 +10,8 @@ cv:
       username: Estebanlau6
   
   sections:
-    # --- PROFIL ---
     profil:
-      - "Étudiant en 2ème année de BTS SIO option SLAM , je recherche un stage de 6 semaines (Janvier - Février 2026) pour consolider mes compétences en développement informatique."
+      - "Étudiant en 2ème année de BTS SIO option SLAM , je recherche un stage de 6 semaines ( 6 Janvier - 13 Février 2026) pour consolider mes compétences en développement informatique."
     
     formation:
 
@@ -32,7 +31,6 @@ cv:
         date: 2024-06
         highlights:
           - "Spécialités : Mathématiques / Sciences Économiques (SES)."
-          - "Mention : Bien"
 
     competences:
       - label: Développement
@@ -40,7 +38,7 @@ cv:
       - label: Infrastructure
         details: Linux , Docker, VMware
       - label: Outils & DevOps
-        details: Git/GitHub, Visual Studio, VS Code, CI/CD 
+        details: Git, Visual Studio, VS Code, CI/CD 
       - label: Base de données
         details: PostgreSQL, MySQL, SQL Server
       - label: Langues
@@ -76,7 +74,7 @@ cv:
         date: 2025
         highlights:
           - "Développement d'une application C# .NET MAUI."
-          - "Fonctionnalités : Consommation d'API REST pour afficher les données du jeu."
+          - "Fonctionnalités : Affichage des données du jeu."
           - "Environnement : Visual Studio, Git."
           
       - name: "[CV dynamique ↗](https://github.com/Estebanlau6/resume)"
@@ -85,7 +83,6 @@ cv:
           - "Génération automatique du PDF via un pipeline CI/CD."
           - "Technologie : RenderCV (Python/Typst)."
 
-    # --- CENTRES D'INTÉRÊT ---
     centres_interet:
       - label: Technologie
         details: "Suivi de l'actualité et des innovations technologiques."
@@ -93,7 +90,6 @@ cv:
       - label: Cinéma
         details: ""
 
-# --- DESIGN ---
 design:
   theme: sb2nov
   page:
@@ -128,7 +124,6 @@ design:
     separator_between_connections: '  •  '
     use_icons_for_connections: true
   section_titles:
-    # CORRECTION ICI : On met "with-full-line" au lieu de "sb2nov"
     type: with-full-line 
     font_family: Source Sans 3
     font_size: 12pt
@@ -147,7 +142,6 @@ design:
     left_margin: 0.3cm
     vertical_space_between_highlights: 0.1cm
 
-# --- LOCALE ---
 locale:
   language: fr
   phone_number_format: national
