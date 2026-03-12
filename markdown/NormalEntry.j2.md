@@ -1,4 +1,4 @@
-## <<entry.name>>
+## ((* if entry.url *))[<<entry.name>>](<<entry.url>>)((* else *))<<entry.name>>((* endif *))
 
 ((* if entry.date_string *))- <<entry.date_string>>
 ((* endif *))

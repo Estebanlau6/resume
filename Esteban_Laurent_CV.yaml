@@ -1,6 +1,6 @@
 cv:
   name: Esteban Laurent
-  location: Rouen, France
+  location: "Rouen, France"
   email: laurentesteban321@gmail.com
   phone: "+33 6 14 63 24 67"
   social_networks:
@@ -11,160 +11,93 @@ cv:
   
   sections:
     profil:
-      - "Étudiant en 2ème année de BTS SIO option SLAM , je recherche un stage de 6 semaines ( 6 Janvier - 13 Février 2026) pour consolider mes compétences en développement informatique."
+      - "Étudiant en 2ème année de BTS SIO option SLAM, je recherche une alternance en développement applicatif pour la rentrée 2026, après mon admission au CESI en 3ème année de développeur concepteur d'application."
     
     formation:
-
-      - company: Lycée La Châtaigneraie
-        position: BTS SIO - Option SLAM
-        location: Rouen
+      - company: "Lycée La Châtaigneraie"
+        position: "BTS SIO - Option SLAM"
+        location: "Rouen"
         start_date: 2024-09
         end_date: present
         highlights:
-
-          - "Spécialité : Solutions Logicielles et Applications Métiers."
-          - "Option : Mathématiques Approfondie"
+          - "Spécialité : Solutions Logicielles et Applications Métiers"
+          - "Option : Mathématiques Approfondies"
       
-      - company: Lycée Marcel Sembat
-        position: Baccalauréat Général
-        location: Sotteville-lès-Rouen
+      - company: "Lycée Marcel Sembat"
+        position: "Baccalauréat Général"
+        location: "Sotteville-lès-Rouen"
         date: 2024-06
         highlights:
-          - "Spécialités : Mathématiques / Sciences Économiques (SES)."
+          - "Spécialités : Mathématiques et Sciences Économiques (SES)"
 
     competences:
-      - label: Développement
-        details: C#, Java, Python, PHP, JavaScript, SQL, Java, HTML/CSS, 
-      - label: Infrastructure
-        details: Linux , Docker, VMware
-      - label: Outils & DevOps
-        details: Git, Visual Studio, VS Code, CI/CD 
-      - label: Base de données
-        details: PostgreSQL, MySQL, SQL Server
-      - label: Langues
+      - label: "Développement"
+        details: "C#, Java, Python, PHP, JavaScript, SQL, HTML/CSS, React"
+      - label: "Infrastructure"
+        details: "Linux, Docker, VMware"
+      - label: "Outils et DevOps"
+        details: "Git, Visual Studio, VS Code, CI/CD"
+      - label: "Base de données"
+        details: "PostgreSQL, MySQL, SQL Server"
+      - label: "Langues"
         details: "Anglais (B1)"
 
     experience_professionnelle:
       - company: "Université de Mont-Saint-Aignan (DSI)"
-        position: Stagiaire Développeur
+        position: "Stagiaire Développeur"
         start_date: 2025-05
         end_date: 2025-06
         location: "Mont-Saint-Aignan"
         highlights:
-          - "Conception et développement d'une application de gestion RH en Java (Thymleaf)."
+          - "Conception et développement d'une application de gestion RH en Java (Thymeleaf)"
+      - company: "Di-Eureka"
+        position: "Stagiaire Développeur"
+        start_date: 2026-01
+        end_date: 2026-02
+        location: "Rouen"
+        highlights:
+          - "Développement d'une application de vente de pièces détachées avec React et Node.js"
 
       - company: "RAS Intérim (Mission chez STEF)"
         position: "Manutentionnaire"
         start_date: 2025-07
         end_date: 2025-08
-        location: Oissel
-        highlights:
-
+        location: "Oissel"
 
       - company: "Ripeur"
         position: "Agent de Collecte"
         start_date: 2025-08
         end_date: 2025-08
-        location: Elbeuf
-        highlights:
+        location: "Elbeuf"
 
-    # --- PROJETS ---
+      - company: "Ripeur"
+        position: "Agent de Collecte"
+        start_date: 2025-12
+        end_date: 2026-01
+        location: "Rouen"
+
     projets:
-      - name: "[Wiki Zelda ↗](https://github.com/Estebanlau6/WikiZeldaSS)"
+      - name: "Wiki Zelda"
+        url: "https://github.com/Estebanlau6/WikiZeldaSS"
         date: 2025
         highlights:
-          - "Développement d'une application C# .NET MAUI."
-          - "Fonctionnalités : Affichage des données du jeu."
-          - "Environnement : Visual Studio, Git."
+          - "Développement d'une application C# .NET MAUI"
           
-      - name: "[CV dynamique ↗](https://github.com/Estebanlau6/resume)"
+      - name: "CV dynamique"
+        url: "https://github.com/Estebanlau6/resume"
         date: 2025
         highlights:
-          - "Génération automatique du PDF via un pipeline CI/CD."
-          - "Technologie : RenderCV (Python/Typst)."
+          - "Génération automatique du PDF via un pipeline CI/CD"
+          - "Technologie : RenderCV"
 
     centres_interet:
-      - label: Technologie
-        details: "Suivi de l'actualité et des innovations technologiques."
-      
-      - label: Cinéma
-        details: ""
+      - label: "Technologie"
+        details: "Suivi de l'actualité et des innovations technologiques"
+      - label: "Cinéma"
+        details: "Visionnage et analyse d'oeuvres cinématographiques"
 
 design:
-  theme: sb2nov
-  page:
-    size: a4
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: false
-    show_last_updated_date: false
-  colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
-    links: rgb(0, 0, 0)
-  text:
-    font_family: Source Sans 3
-    font_size: 10pt
-    leading: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: false
-    use_external_link_icon: false
-  header:
-    name_font_family: Source Sans 3
-    name_font_size: 24pt
-    name_bold: true
-    alignment: center
-    vertical_space_between_name_and_connections: 0.2cm
-    separator_between_connections: '  •  '
-    use_icons_for_connections: true
-  section_titles:
-    type: with-full-line 
-    font_family: Source Sans 3
-    font_size: 12pt
-    bold: true
-    line_thickness: 0.05cm
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
-  entries:
-    date_and_location_width: 4cm
-    left_and_right_margin: 0.2cm
-    vertical_space_between_entries: 0.4cm
-    allow_page_break_in_entries: true
-  highlights:
-    bullet: •
-    top_margin: 0.1cm
-    left_margin: 0.3cm
-    vertical_space_between_highlights: 0.1cm
+  theme: moderncv
 
 locale:
   language: fr
-  phone_number_format: national
-  date_template: MONTH_ABBREVIATION YEAR
-  month: mois
-  months: mois
-  year: an
-  years: ans
-  present: Aujourd'hui
-  to: à
-  abbreviations_for_months:
-    - Janv.
-    - Févr.
-    - Mars
-    - Avr.
-    - Mai
-    - Juin
-    - Juil.
-    - Août
-    - Sept.
-    - Oct.
-    - Nov.
-    - Déc.
-
-rendercv_settings:
-  date: '2025-11-24'
