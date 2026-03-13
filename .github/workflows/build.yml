@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_call: # to make the workflow triggerable from other workflows (release.yml)
+  workflow_call:
 
 permissions:
   contents: write
@@ -12,27 +12,28 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v6
 
       - name: Install dependencies
-        run: uv sync --locked --all-extras --dev
+        run: uv sync
 
       - name: RenderCV
         run: |
-          cv_file=$(find .  -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
+          cv_file=$(find . -maxdepth 1 -type f -name "*_CV.yaml" | head -n 1)
           if [ -z "$cv_file" ]; then
             echo "No RenderCV file found!"
             exit 1
           fi
-          uv run rendercv render $cv_file
+          uv run rendercv render "$cv_file"
 
       - name: Upload output as an artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
-          name: rendercv_output
+          name: RenderCV Output
+          # RenderCV usually creates a folder named "rendercv_output" 
+          # in the current working directory by default
           path: rendercv_output
