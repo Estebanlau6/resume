@@ -11,9 +11,15 @@ cv:
   
   sections:
     profil:
-      - "Étudiant en 2ème année de BTS SIO option SLAM, je recherche une alternance en développement applicatif pour la rentrée 2026, après mon admission au CESI en 3ème année de développeur concepteur d'application."
+      - "Étudiant en 2e année de BTS SIO (SLAM), admis au CESI en 3e année Concepteur Développeur d’Applications, je recherche une alternance pour la rentrée 2026."
     
-    formation:
+    formations:
+      - company: "CESI"
+        position: "Bachelor Concepteur Développeur d’Applications"
+        location: "Rouen"
+        start_date: 2026
+        end_date: 2027
+
       - company: "Lycée La Châtaigneraie"
         position: "BTS SIO - Option SLAM"
         location: "Rouen"
@@ -32,11 +38,11 @@ cv:
 
     competences:
       - label: "Développement"
-        details: "C#, Java, Python, PHP, JavaScript, SQL, HTML/CSS, React"
+        details: "C#, Java, Python, PHP, JavaScript/TypeScript, SQL, HTML/CSS, React, Node.js"
       - label: "Infrastructure"
         details: "Linux, Docker, VMware"
       - label: "Outils et DevOps"
-        details: "Git, Visual Studio, VS Code, CI/CD"
+        details: "Git, GitHub, VS Code, Visual Studio, CI/CD"
       - label: "Base de données"
         details: "PostgreSQL, MySQL, SQL Server"
       - label: "Langues"
@@ -49,14 +55,14 @@ cv:
         end_date: 2025-06
         location: "Mont-Saint-Aignan"
         highlights:
-          - "Conception et développement d'une application de gestion RH en Java (Thymeleaf)"
+          - "Conception et développement d'une application de gestion RH en Java (Thymeleaf)."
       - company: "Di-Eureka"
         position: "Stagiaire Développeur"
         start_date: 2026-01
         end_date: 2026-02
         location: "Rouen"
         highlights:
-          - "Développement d'une application de vente de pièces détachées avec React et Node.js"
+          - "Développement d'une application de vente de pièces détachées avec React et Node.js."
 
       - company: "RAS Intérim (Mission chez STEF)"
         position: "Manutentionnaire"
@@ -81,23 +87,69 @@ cv:
         url: "https://github.com/Estebanlau6/WikiZeldaSS"
         date: 2025
         highlights:
-          - "Développement d'une application C# .NET MAUI"
+          - "Application C#/.NET MAUI avec navigation et gestion des données."
           
       - name: "CV dynamique"
         url: "https://github.com/Estebanlau6/resume"
         date: 2025
         highlights:
-          - "Génération automatique du PDF via un pipeline CI/CD"
-          - "Technologie : RenderCV"
+          - "Génération automatique du CV via RenderCV et GitHub Actions."
 
     centres_interet:
       - label: "Technologie"
-        details: "Suivi de l'actualité et des innovations technologiques"
+        details: "Veille sur les outils de développement, l'IA et les pratiques DevOps"
       - label: "Cinéma"
-        details: "Visionnage et analyse d'oeuvres cinématographiques"
+        details: "Intérêt pour la narration visuelle et l'analyse d'oeuvres"
 
 design:
   theme: moderncv
+  page:
+    size: a4
+    top_margin: 1.8cm
+    bottom_margin: 1.8cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_last_updated_date: false
+    show_page_numbering: false
+  text:
+    font_size: 9.6pt
+    leading: 0.56em
+  section_titles:
+    vertical_space_above: 0.46cm
+    vertical_space_below: 0.24cm
+  entries:
+    vertical_space_between_entries: 0.3cm
+  header:
+    vertical_space_between_name_and_connections: 0.55cm
+    vertical_space_between_connections_and_first_section: 0.55cm
 
 locale:
   language: fr
+  date_template: "MONTH_ABBREVIATION YEAR"
+  present: "aujourd'hui"
+  abbreviations_for_months:
+    - "janv."
+    - "févr."
+    - "mars"
+    - "avr."
+    - "mai"
+    - "juin"
+    - "juil."
+    - "août"
+    - "sept."
+    - "oct."
+    - "nov."
+    - "déc."
+  full_names_of_months:
+    - "janvier"
+    - "février"
+    - "mars"
+    - "avril"
+    - "mai"
+    - "juin"
+    - "juillet"
+    - "août"
+    - "septembre"
+    - "octobre"
+    - "novembre"
+    - "décembre"
